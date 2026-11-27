@@ -1,0 +1,138 @@
+[
+  {
+    "character": "Зак",
+    "key": "Zak",
+    "source": "C:\\GOG Games\\repack-out\\Res\\figures\\unhuma\\unhuma.dae",
+    "node": "unhuma",
+    "pose": "source bind/default pose; no animation",
+    "geometryParts": 16,
+    "skinIndex": 0,
+    "layers": [
+      "pt_12.cw.0",
+      "sh_12.cw.0",
+      "gl_12.cw.0",
+      "bt_12.cw.0"
+    ],
+    "bounds": {
+      "min": [
+        -0.542537,
+        -0.541898,
+        -0.11043
+      ],
+      "max": [
+        0.548641,
+        0.555811,
+        0.117281
+      ],
+      "vertices": 2694,
+      "triangles": 898
+    },
+    "displayHeight": 2.0
+  },
+  {
+    "character": "Людоед",
+    "key": "Ogre",
+    "source": "C:\\GOG Games\\repack-out\\Maps\\zone1\\zone1_full.dae",
+    "node": "unmoog1_zone1_6875",
+    "pose": "source bind/default pose; no animation",
+    "geometryParts": 16,
+    "skinIndex": null,
+    "layers": [],
+    "bounds": {
+      "min": [
+        -2.23681,
+        -1.40034,
+        -0.545609
+      ],
+      "max": [
+        2.03486,
+        1.54224,
+        2.15381
+      ],
+      "vertices": 2667,
+      "triangles": 889
+    },
+    "displayHeight": 3.6
+  },
+  {
+    "character": "Ящер-отшельник",
+    "key": "Hermit",
+    "source": "C:\\GOG Games\\repack-out\\Maps\\bz5g\\bz5g_full.dae",
+    "node": "unmoli_bz5g_3075",
+    "pose": "source bind/default pose; no animation",
+    "geometryParts": 19,
+    "skinIndex": null,
+    "layers": [],
+    "bounds": {
+      "min": [
+        -1.51263,
+        -0.924777,
+        -0.934004
+      ],
+      "max": [
+        1.2876,
+        2.00047,
+        0.917438
+      ],
+      "vertices": 2646,
+      "triangles": 882
+    },
+    "displayHeight": 2.4
+  },
+  {
+    "character": "Эстера",
+    "key": "Estera",
+    "source": "C:\\GOG Games\\repack-out\\Maps\\bz2g\\bz2g_full.dae",
+    "node": "unhufe_bz2g_2216",
+    "pose": "source bind/default pose; no animation",
+    "geometryParts": 16,
+    "skinIndex": 3,
+    "layers": [
+      "lg_07.le.0",
+      "pt_04.uq.0",
+      "sh_04.uq.0",
+      "pl_04.uq.0",
+      "hl_04.uq.0"
+    ],
+    "bounds": {
+      "min": [
+        -0.706311,
+        -0.663909,
+        -0.155818
+      ],
+      "max": [
+        0.699757,
+        0.809332,
+        0.229633
+      ],
+      "vertices": 3042,
+      "triangles": 1014
+    },
+    "displayHeight": 1.8,
+    "equipmentGeometrySource": "C:/GOG Games/Evil Islands/Res/figures.res: unhufe.mod + unhufe.bon",
+    "equipmentComplection": [
+      0.8999999761581421,
+      0,
+      0.38999998569488525
+    ],
+    "equipmentParts": [
+      "bd.armor04",
+      "hd",
+      "hd.armor04",
+      "hp.armor07",
+      "lh1.armor04",
+      "lh2.armor04",
+      "lh3",
+      "ll1.armor07",
+      "ll2.armor07",
+      "ll3",
+      "rh1.armor04",
+      "rh2.armor04",
+      "rh3",
+      "rl1.armor07",
+      "rl2.armor07",
+      "rl3"
+    ],
+    "equipmentNotes": "Restored tiger-hide helmet and plate (armor04), leather leggings (armor07), retaining the original map complection, bind pose, material and entity transforms. Covered body segments replaced by equipment geometry."
+  }
+]

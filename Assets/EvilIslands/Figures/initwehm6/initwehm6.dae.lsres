@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "c1d6fa751c645cb395df88b0b8bb92fe",
+  "data": {
+    "name": "initwehm6",
+    "source": "Assets/EvilIslands/Figures/initwehm6/initwehm6.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "initwehm6",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

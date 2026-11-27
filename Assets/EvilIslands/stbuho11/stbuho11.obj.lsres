@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "d14760c969725922a73d643e0ef32cae",
+  "data": {
+    "name": "stbuho11",
+    "source": "Assets/EvilIslands/stbuho11/stbuho11.obj",
+    "bakeNodes": false
+  }
+}

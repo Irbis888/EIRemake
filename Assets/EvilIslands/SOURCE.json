@@ -1,0 +1,196 @@
+{
+  "source": "Local Evil Islands extraction: C:/GOG Games/repack-out",
+  "conversion": "EIrepack Collada -> Assimp static OBJ with node transforms baked; textures copied unchanged",
+  "models": [
+    {
+      "min": [
+        -3.13494,
+        -0.230541,
+        -3.10832
+      ],
+      "max": [
+        3.17995,
+        2.37862,
+        3.18583
+      ],
+      "vertices": 540,
+      "triangles": 180,
+      "id": "stbuho7",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stbuho7\\stbuho7.dae",
+      "images": [
+        "./HumanHouse01.png"
+      ]
+    },
+    {
+      "min": [
+        -6.57045,
+        -0.078857,
+        -2.45298
+      ],
+      "max": [
+        4.17469,
+        4.50665,
+        2.4424
+      ],
+      "vertices": 531,
+      "triangles": 177,
+      "id": "stbuho14",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stbuho14\\stbuho14.dae",
+      "images": [
+        "./kanianHouse00.png"
+      ]
+    },
+    {
+      "min": [
+        -1.68427,
+        0,
+        -1.68427
+      ],
+      "max": [
+        1.68427,
+        1.75359,
+        1.68427
+      ],
+      "vertices": 594,
+      "triangles": 198,
+      "id": "stbuho11",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stbuho11\\stbuho11.dae",
+      "images": [
+        "./tent00.png"
+      ]
+    },
+    {
+      "min": [
+        -4.03252,
+        -0.059362,
+        -2.19011
+      ],
+      "max": [
+        4.0625,
+        1.52315,
+        2.19193
+      ],
+      "vertices": 282,
+      "triangles": 94,
+      "id": "stbuho16",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stbuho16\\stbuho16.dae",
+      "images": [
+        "./armyTent00.png"
+      ]
+    },
+    {
+      "min": [
+        -1.03329,
+        0,
+        -1.03268
+      ],
+      "max": [
+        1.03974,
+        0.440872,
+        0.906236
+      ],
+      "vertices": 300,
+      "triangles": 100,
+      "id": "stwe3",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stwe3\\stwe3.dae",
+      "images": [
+        "./Well00.png"
+      ]
+    },
+    {
+      "min": [
+        -2.58799,
+        0,
+        -0.820346
+      ],
+      "max": [
+        1.04289,
+        1.6603,
+        0.830137
+      ],
+      "vertices": 972,
+      "triangles": 324,
+      "id": "stst125",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stst125\\stst125.dae",
+      "images": [
+        "./Cart00.png"
+      ]
+    },
+    {
+      "min": [
+        -0.426241,
+        -0.06982,
+        -0.348946
+      ],
+      "max": [
+        0.434219,
+        0.618275,
+        0.356166
+      ],
+      "vertices": 1032,
+      "triangles": 344,
+      "id": "stst84",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stst84\\stst84.dae",
+      "images": [
+        "./ogreChest00.png"
+      ]
+    },
+    {
+      "min": [
+        -0.653148,
+        -0.000501,
+        -0.825175
+      ],
+      "max": [
+        0.653148,
+        1.04631,
+        0.825485
+      ],
+      "vertices": 678,
+      "triangles": 226,
+      "id": "stst92",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stst92\\stst92.dae",
+      "images": [
+        "./hadoganChest00.png"
+      ]
+    },
+    {
+      "min": [
+        -0.158058,
+        0,
+        -0.15
+      ],
+      "max": [
+        0.158058,
+        0.407262,
+        0.15
+      ],
+      "vertices": 462,
+      "triangles": 154,
+      "id": "stst34",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stst34\\stst34.dae",
+      "images": [
+        "./altar00.png"
+      ]
+    },
+    {
+      "min": [
+        -3.12441,
+        -0.873602,
+        -1.86325
+      ],
+      "max": [
+        2.86938,
+        0.455523,
+        0.947738
+      ],
+      "vertices": 102,
+      "triangles": 34,
+      "id": "stbr13",
+      "source": "C:\\GOG Games\\repack-out\\Res\\figures\\stbr13\\stbr13.dae",
+      "images": [
+        "./stone06.png"
+      ]
+    }
+  ]
+}

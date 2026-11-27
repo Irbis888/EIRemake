@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "8a5cce5c7a645658b22720c791d11962",
+  "data": {
+    "name": "Estera",
+    "source": "Assets/EvilIslands/Characters/Estera/Estera.obj",
+    "bakeNodes": false
+  }
+}

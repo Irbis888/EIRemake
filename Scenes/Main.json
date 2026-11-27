@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "camera": {
+        "aspectRatio": 1.7777778,
+        "farZ": 1000,
+        "fov": 1.0,
+        "nearZ": 0.1
+      },
+      "tag": "Camera",
+      "transform": {
+        "position": [
+          0,
+          4,
+          -10
+        ],
+        "rotation": [
+          0.3,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "directionalLight": {
+        "color": [
+          1,
+          0.96,
+          0.9
+        ],
+        "enabled": true,
+        "intensity": 1.2
+      },
+      "tag": "Sun",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0.9409567928464757,
+          -1.0303768265243125,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      }
+    },
+    {
+      "mesh": {
+        "material": {
+          "color": [
+            0.55,
+            0.57,
+            0.6
+          ],
+          "name": "GroundMaterial",
+          "roughness": 0.8
+        },
+        "primitive": "plane",
+        "source": "primitive"
+      },
+      "tag": "Ground",
+      "transform": {
+        "position": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          20,
+          1,
+          20
+        ]
+      },
+      "materialComponent": {
+        "asset": "uid:75c3de18a2e55200bfd5567dd2c7645d"
+      }
+    }
+  ],
+  "name": "Main",
+  "version": 1
+}

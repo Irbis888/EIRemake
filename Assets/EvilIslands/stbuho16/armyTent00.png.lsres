@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "814d5d69f3b257da954c3721161fde17",
+  "data": {
+    "name": "armyTent00",
+    "source": "Assets/EvilIslands/stbuho16/armyTent00.png"
+  }
+}

@@ -1,0 +1,502 @@
+{
+  "entities": [
+    {
+      "camera": {
+        "aspectRatio": 1.7177914381027222,
+        "farZ": 1000.0,
+        "fov": 0.8999999761581421,
+        "nearZ": 0.10000000149011612
+      },
+      "tag": "Camera",
+      "transform": {
+        "position": [
+          14.623086929321289,
+          2.0502817630767822,
+          -3.127722978591919
+        ],
+        "rotation": [
+          0.2449997365474701,
+          -0.6660018563270569,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "directionalLight": {
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8199999928474426
+        ],
+        "enabled": true,
+        "intensity": 1.25
+      },
+      "tag": "Sun",
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          1.0390722751617432,
+          -0.9272952079772949,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:f1f147fc823f5a639050461523ce807f"
+      },
+      "mesh": {
+        "material": {
+          "color": [
+            0.30000001192092896,
+            0.3400000035762787,
+            0.20000000298023224
+          ],
+          "name": "Courtyard earth",
+          "roughness": 0.949999988079071
+        },
+        "primitive": "plane",
+        "source": "primitive"
+      },
+      "tag": "Courtyard",
+      "transform": {
+        "position": [
+          0.0,
+          -0.02500000037252903,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          40.0,
+          1.0,
+          32.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:bfb8634600865f2b81459a06fc6c2334"
+      },
+      "mesh": {
+        "path": "uid:d198816a7c5e5e67aa5d481b26bd6966",
+        "source": "asset"
+      },
+      "tag": "EI - Human House (stbuho7)",
+      "transform": {
+        "position": [
+          -8.0,
+          0.23054100573062897,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:55383a7cfc375b3bbaea20c68dcd1334"
+      },
+      "mesh": {
+        "path": "uid:ea47a2b99b21596fa1f5ad0ac435bf62",
+        "source": "asset"
+      },
+      "tag": "EI - Kanian House (stbuho14)",
+      "transform": {
+        "position": [
+          7.0,
+          0.07885699719190598,
+          8.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:51119da0b2e654128bbf311ac3704df0"
+      },
+      "mesh": {
+        "path": "uid:d14760c969725922a73d643e0ef32cae",
+        "source": "asset"
+      },
+      "tag": "EI - Travel Tent (stbuho11)",
+      "transform": {
+        "position": [
+          -8.0,
+          0.0,
+          -4.0
+        ],
+        "rotation": [
+          0.0,
+          0.20000000298023224,
+          0.0
+        ],
+        "scale": [
+          1.2999999523162842,
+          1.2999999523162842,
+          1.2999999523162842
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:5991064499db5c259da53507dc33e0f7"
+      },
+      "mesh": {
+        "path": "uid:01a7c3d56aa65f2b9ccddc2ebd9a006c",
+        "source": "asset"
+      },
+      "tag": "EI - Army Tent (stbuho16)",
+      "transform": {
+        "position": [
+          7.0,
+          0.05936200171709061,
+          -3.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:0741470b6b015ba39665516aa7280840"
+      },
+      "mesh": {
+        "path": "uid:06195bcad72e55b885c424cb4f48e776",
+        "source": "asset"
+      },
+      "tag": "EI - Well (stwe3)",
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:9658c7358874548e9d0fe2d5f91d135d"
+      },
+      "mesh": {
+        "path": "uid:cca1311b14335876bb149b9be253e7ae",
+        "source": "asset"
+      },
+      "tag": "EI - Cart (stst125)",
+      "transform": {
+        "position": [
+          -3.0,
+          0.0,
+          -6.0
+        ],
+        "rotation": [
+          0.0,
+          0.20000000298023224,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:a329e7c68feb56bcbc6f3e79a1df7257"
+      },
+      "mesh": {
+        "path": "uid:49d940e205f65c1686919050877c0e72",
+        "source": "asset"
+      },
+      "tag": "EI - Ogre Chest (stst84)",
+      "transform": {
+        "position": [
+          1.0,
+          0.10473000258207321,
+          -7.0
+        ],
+        "rotation": [
+          0.0,
+          -0.20000000298023224,
+          0.0
+        ],
+        "scale": [
+          1.5,
+          1.5,
+          1.5
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:74522f4ae4a5541ba17392a7b55d6d6c"
+      },
+      "mesh": {
+        "path": "uid:314d2b0741bc5a3bbb310566638f2f74",
+        "source": "asset"
+      },
+      "tag": "EI - Hadogan Chest (stst92)",
+      "transform": {
+        "position": [
+          4.0,
+          0.0005009999731555581,
+          -7.0
+        ],
+        "rotation": [
+          0.0,
+          -0.20000000298023224,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:21f24c0d2a4159308cbec07e7ea57f39"
+      },
+      "mesh": {
+        "path": "uid:15d59aa6d25a5e74ae2829d0da576ee9",
+        "source": "asset"
+      },
+      "tag": "EI - Altar (stst34)",
+      "transform": {
+        "position": [
+          0.0,
+          0.0,
+          5.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          4.0,
+          4.0,
+          4.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:ce29e7e04df15494bd43f8ec88e81c4a"
+      },
+      "mesh": {
+        "path": "uid:4464c2ac5e215b0eb35c23eda8beac0d",
+        "source": "asset"
+      },
+      "tag": "EI - Stone (stbr13)",
+      "transform": {
+        "position": [
+          -13.0,
+          0.8736019730567932,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.5,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:8a835e0413635b4592ae21694d651148"
+      },
+      "mesh": {
+        "path": "uid:33908e39397e5219aa3bb5f5bb4b91c3",
+        "source": "asset"
+      },
+      "tag": "EI - Зак",
+      "transform": {
+        "position": [
+          -7.005560874938965,
+          0.9873254299163818,
+          -11.506240844726563
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.8219765424728394,
+          1.8219765424728394,
+          1.8219765424728394
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:2bad0842a5415c37b6cc312dea57b690"
+      },
+      "mesh": {
+        "path": "uid:173407062882537f8f50102022bc0126",
+        "source": "asset"
+      },
+      "tag": "EI - Людоед",
+      "transform": {
+        "position": [
+          -1.8764655590057373,
+          1.7131986618041992,
+          -12.483749389648438
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.2234162092208862,
+          1.2234162092208862,
+          1.2234162092208862
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:4b7f652b0cb05796a47590f142351dae"
+      },
+      "mesh": {
+        "path": "uid:e522ee98d2b1556ba2f698b2ea4ae8e4",
+        "source": "asset"
+      },
+      "tag": "EI - Ящер-отшельник",
+      "transform": {
+        "position": [
+          3.0923120975494385,
+          0.7587273120880127,
+          -11.493204116821289
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          0.8204435110092163,
+          0.8204435110092163,
+          0.8204435110092163
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": "uid:76503b9e61c45a609e6aa4bf8c5a459d"
+      },
+      "mesh": {
+        "path": "uid:8a5cce5c7a645658b22720c791d11962",
+        "source": "asset"
+      },
+      "tag": "EI - Эстера",
+      "transform": {
+        "position": [
+          8.004151344299316,
+          0.8411417603492737,
+          -11.541545867919922
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.266953468322754,
+          1.266953468322754,
+          1.266953468322754
+        ]
+      }
+    },
+    {
+      "materialComponent": {
+        "asset": ""
+      },
+      "mesh": {
+        "path": "uid:5f60a00602f753afb4d18eafd0bfd0e4",
+        "source": "asset"
+      },
+      "tag": "Test",
+      "transform": {
+        "position": [
+          9.789130210876465,
+          0.21208634972572327,
+          3.0393567085266113
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      }
+    }
+  ],
+  "name": "EvilIslandsCourtyard",
+  "version": 1
+}

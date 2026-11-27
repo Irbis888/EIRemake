@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "135a83988c8c53768a9d0950079923b8",
+  "data": {
+    "name": "tent00",
+    "source": "Assets/EvilIslands/stbuho11/tent00.png"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "27d1ed397a3354d08092946a6013c2bc",
+  "data": {
+    "name": "unorma",
+    "source": "Assets/EvilIslands/Figures/unorma/unorma.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unorma",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping",
+    "nodes": [
+      "hp",
+      "bd",
+      "hd",
+      "lh1",
+      "lh2",
+      "lh3",
+      "rh1",
+      "rh2",
+      "rh3",
+      "ll1",
+      "ll2",
+      "ll3",
+      "rl1",
+      "rl2",
+      "rl3"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "81230c1977e2504aa725f63582a2fab1",
+  "data": {
+    "name": "infaunmoor",
+    "source": "Assets/EvilIslands/Figures/infaunmoor/infaunmoor.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "infaunmoor",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

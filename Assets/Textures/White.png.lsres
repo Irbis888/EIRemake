@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "9dcceb8a0d8e518cb095235f2da38c25",
+  "data": {
+    "name": "White",
+    "source": "Assets/Textures/White.png"
+  }
+}

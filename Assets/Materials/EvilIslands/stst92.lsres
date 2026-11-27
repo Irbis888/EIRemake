@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "74522f4ae4a5541ba17392a7b55d6d6c",
+  "data": {
+    "name": "stst92",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "uid:4dd69f704f8f5c8b846afea364aa15e2",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

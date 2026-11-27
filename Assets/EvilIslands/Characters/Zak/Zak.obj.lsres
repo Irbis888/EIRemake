@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "33908e39397e5219aa3bb5f5bb4b91c3",
+  "data": {
+    "name": "Zak",
+    "source": "Assets/EvilIslands/Characters/Zak/Zak.obj",
+    "bakeNodes": false
+  }
+}

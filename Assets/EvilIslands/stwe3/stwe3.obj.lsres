@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "06195bcad72e55b885c424cb4f48e776",
+  "data": {
+    "name": "stwe3",
+    "source": "Assets/EvilIslands/stwe3/stwe3.obj",
+    "bakeNodes": false
+  }
+}

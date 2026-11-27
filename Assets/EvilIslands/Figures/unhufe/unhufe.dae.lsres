@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "03d08093aac3528d918ca9cca2405650",
+  "data": {
+    "name": "unhufe",
+    "source": "Assets/EvilIslands/Figures/unhufe/unhufe.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unhufe",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping",
+    "nodes": [
+      "hp",
+      "bd",
+      "hd",
+      "hr.01",
+      "lh1",
+      "lh2",
+      "lh3",
+      "rh1",
+      "rh2",
+      "rh3",
+      "ll1",
+      "ll2",
+      "ll3",
+      "rl1",
+      "rl2",
+      "rl3"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "ce29e7e04df15494bd43f8ec88e81c4a",
+  "data": {
+    "name": "stbr13",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "uid:2e9a13d44db6568d8ef719e4431019fc",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "10cb174659625cf49b7b37b1b1e50559",
+  "data": {
+    "name": "unanwide",
+    "source": "Assets/EvilIslands/Figures/unanwide/unanwide.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unanwide",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

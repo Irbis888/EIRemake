@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "9b929161fdac5a8f91e6967abe308793",
+  "data": {
+    "name": "nast16",
+    "source": "Assets/EvilIslands/Figures/nast16/nast16.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "nast16",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

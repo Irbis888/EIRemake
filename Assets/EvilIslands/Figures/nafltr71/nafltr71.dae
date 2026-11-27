@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EIrepack</authoring_tool>
+      <copyright>Only for educational purposes</copyright>
+    </contributor>
+    <created>2026-11-06T18:56:28.557291</created>
+    <modified>2026-11-06T18:56:28.557291</modified>
+    <title>nafltr71</title>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="effect0" name="effect0">
+      <profile_COMMON>
+        <newparam sid="texture_surface">
+          <surface type="2D">
+            <init_from>texture</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="texture_sampler">
+          <sampler2D>
+            <source>texture_surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_sampler" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="cactus1_geom" name="cactus1">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="48" id="vert_arr-array">0.140248 -0.133133 0.835565 -0.110561 -0.214626 0.835565 0.096919 -0.104976 -0.000105 -0.100332 -0.169066 -0.000105 0.140248 0.130584 0.835565 0.096919 0.102427 -0.000105 -0.110561 0.212077 0.835565 -0.100332 0.166517 -0.000105 -0.26557 -0.001275 0.835565 -0.22224 -0.001275 -0.000105 -0.087609 -0.112395 1.441845 0.043021 -0.069951 1.441845 0.043021 0.067402 1.441845 -0.087609 0.109846 1.441845 -0.168342 -0.001275 1.441845 -0.051504 -0.001275 1.505905</float_array>
+          <technique_common>
+            <accessor count="16" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="48" id="norm_arr-array">0.8079902 -0.5858971 0.06225989 -0.4051668 -0.9133855 0.03958338 0.6467571 -0.7603986 -0.05915531 -0.308635 -0.9495573 -0.05554688 0.8063271 0.5878453 0.06537987 0.9229129 0.3801998 -0.06066291 -0.1695059 0.9821376 0.08169212 -0.3086355 0.9495571 -0.0555464 -0.9705757 0.2350528 0.05227752 -0.9706722 -0.2350798 -0.05033014 -0.1193159 -0.8420993 0.5259587 0.7595573 -0.371433 0.5339572 0.5884515 0.6091129 0.5317013 -0.4004307 0.7529256 0.5222627 -0.8420608 -0.1480842 0.5186566 -2.383298e-06 -1.540863e-06 1</float_array>
+          <technique_common>
+            <accessor count="16" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="48" id="tex_arr-array">0.098679 0.721117 0.148841 0.721117 0.107345 0.386849 0.146795 0.386849 0.201663 0.721117 0.14892 0.721117 0.196032 0.386849 0.154551 0.386849 0.055678 0.721117 0.055678 0.386849 0.013008 0.721117 0.02212 0.386849 0.144251 0.96363 0.118125 0.96363 0.161556 0.963629 0.189027 0.963629 0.098349 0.721117 0.089237 0.386849 0.055678 0.963629 0.033454 0.963629 0.055678 0.989253 0.137029 0.989254 0.175291 0.989253 0.077902 0.963629</float_array>
+          <technique_common>
+            <accessor count="24" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="25" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 2 2 2 1 1 1 4 4 4 0 0 5 5 5 6 2 2 7 5 5 6 0 0 5 6 6 1 4 4 0 7 7 3 5 5 2 7 7 3 4 4 0 8 8 8 9 9 9 1 1 10 9 9 9 3 3 11 1 1 10 1 1 1 0 0 0 10 10 12 0 0 0 11 11 13 10 10 12 0 0 5 4 4 4 11 11 14 4 4 4 12 12 15 11 11 14 4 4 0 6 6 1 12 12 13 6 6 1 13 13 12 12 12 13 6 6 16 7 7 17 8 8 8 7 7 17 9 9 9 8 8 8 14 14 18 10 10 19 15 15 20 10 10 12 11 11 13 15 15 21 11 11 14 12 12 15 15 15 22 12 12 13 13 13 12 15 15 21 13 13 23 14 14 18 15 15 20 8 8 8 1 1 10 14 14 18 1 1 10 10 10 19 14 14 18 6 6 16 8 8 8 13 13 23 8 8 8 14 14 18 13 13 23</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="br1_geom" name="br1">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="48" id="vert_arr-array">-0.045323 0.012579 0.772014 -0.183147 0.017238 0.817944 -0.039533 0.553495 1.029107 -0.177552 0.489789 1.060512 -0.138439 0.015523 0.987778 -0.135121 0.377526 1.116752 0.027016 0.009804 0.991152 0.029124 0.371849 1.120101 0.084564 0.007985 0.823403 0.088201 0.480604 1.065932 -0.045768 0.647255 1.524571 -0.123352 0.594837 1.522998 -0.097517 0.504792 1.523539 -0.003966 0.501558 1.525447 0.028016 0.589605 1.526085 -0.051165 0.567631 1.556981</float_array>
+          <technique_common>
+            <accessor count="16" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="48" id="norm_arr-array">0.03922604 0.4285989 -0.9026429 -0.7095902 0.3168625 -0.6293489 0.04583263 0.67651 -0.7350058 -0.9322914 0.3562273 -0.06272829 -0.7430001 -0.2314307 0.6280051 -0.6132396 -0.4872424 0.621717 0.503691 -0.3061152 0.8078297 0.5368965 -0.6651859 0.5189122 0.7655902 0.2773818 -0.5804577 0.9578174 0.2873762 0.000727936 0.02797253 0.9562222 0.2913018 -0.8400679 0.140636 0.5239347 -0.3757274 -0.6803762 0.6292195 0.3875459 -0.5877165 0.7102095 0.825439 0.06975299 0.5601651 -0.02658111 0.0002124773 0.9996467</float_array>
+          <technique_common>
+            <accessor count="16" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="78" id="tex_arr-array">0.461185 0.650266 0.433614 0.660644 0.461461 0.777417 0.433962 0.773128 0.434197 0.660601 0.407715 0.6784 0.437242 0.773052 0.406036 0.767287 0.373112 0.678499 0.406211 0.678644 0.373185 0.767311 0.406042 0.767454 0.431597 0.660668 0.434661 0.773118 0.406107 0.678441 0.404441 0.767328 0.487169 0.660609 0.487126 0.773093 0.461417 0.779386 0.433918 0.791948 0.460017 0.977572 0.444586 0.976942 0.423921 0.792097 0.401538 0.814593 0.445018 0.977091 0.427052 0.977308 0.368509 0.813449 0.401366 0.814789 0.375822 0.976164 0.394536 0.976927 0.422517 0.794265 0.444218 0.978326 0.400671 0.815933 0.426557 0.978071 0.487082 0.794116 0.474868 0.978177 0.459068 0.990536 0.439695 0.990685 0.384989 0.989541</float_array>
+          <technique_common>
+            <accessor count="39" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="25" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 1 1 4 4 4 5 3 3 6 4 4 5 5 5 7 3 3 6 4 4 8 6 6 9 5 5 10 6 6 9 7 7 11 5 5 10 8 8 12 9 9 13 6 6 14 6 6 14 9 9 13 7 7 15 0 0 0 2 2 2 8 8 16 8 8 16 2 2 2 9 9 17 2 2 18 3 3 19 10 10 20 3 3 19 11 11 21 10 10 20 3 3 22 5 5 23 11 11 24 5 5 23 12 12 25 11 11 24 5 5 26 7 7 27 12 12 28 7 7 27 13 13 29 12 12 28 9 9 30 14 14 31 7 7 32 7 7 32 14 14 31 13 13 33 2 2 18 10 10 20 9 9 34 9 9 34 10 10 20 14 14 35 10 10 20 11 11 21 15 15 36 11 11 24 12 12 25 15 15 37 12 12 28 13 13 29 15 15 38 13 13 33 14 14 31 15 15 37 14 14 35 10 10 20 15 15 36</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="br2_geom" name="br2">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="48" id="vert_arr-array">-0.767399 0.003833 0.646197 -0.690327 -0.159818 0.690823 -0.840033 0.013454 1.405681 -0.772824 -0.079979 1.408088 -0.564544 -0.098235 0.763409 -0.664464 -0.045019 1.416831 -0.56388 0.103475 0.763641 -0.664703 0.070021 1.419832 -0.689251 0.166557 0.691201 -0.77321 0.106158 1.412941 -0.754451 0.008789 1.452147 -0.094328 0.009138 0.282556 -0.086704 -0.159537 0.356724 -0.089583 -0.090515 0.558635 -0.093737 0.145689 0.552998 -0.092556 0.159593 0.349463</float_array>
+          <technique_common>
+            <accessor count="16" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="48" id="norm_arr-array">-0.7237626 0.00140222 -0.6900476 -0.3180106 -0.9480773 -0.004323085 -0.9486805 -0.009947435 0.3160795 -0.141777 -0.8464751 0.5132048 0.5652912 -0.6962782 0.442315 0.7118064 -0.3774213 0.5923553 0.6759326 0.5107487 0.5312728 0.5705921 0.4328735 0.6978862 -0.3444846 0.937341 -0.05217389 -0.1333674 0.8381652 0.5288593 -0.0940944 -0.0341498 0.9949774 -0.475294 -0.005391281 -0.8798105 -0.3079335 -0.7633902 -0.5678137 0.3511242 -0.5356485 0.7679795 0.2441432 0.7629158 0.5986264 -0.3344755 0.7165924 -0.6120633</float_array>
+          <technique_common>
+            <accessor count="16" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="78" id="tex_arr-array">0.252536 0.672382 0.28528 0.690233 0.250599 0.976176 0.269298 0.977139 0.284961 0.69031 0.310128 0.719344 0.268476 0.977216 0.290154 0.980713 0.351547 0.718831 0.311205 0.718923 0.340886 0.9802 0.317878 0.9814 0.285234 0.690461 0.268432 0.979157 0.310297 0.719437 0.290127 0.981914 0.220005 0.690384 0.23207 0.97908 0.251547 0.994762 0.272166 0.994839 0.330108 0.994326 0.252204 0.497528 0.285941 0.514829 0.253145 0.671 0.285889 0.670075 0.289921 0.515322 0.323564 0.544818 0.285686 0.670515 0.324109 0.670248 0.371787 0.543939 0.363717 0.670204 0.324545 0.54493 0.323376 0.670364 0.28699 0.514281 0.285979 0.670405 0.321337 0.543952 0.324289 0.67018 0.222114 0.513892 0.220614 0.669955</float_array>
+          <technique_common>
+            <accessor count="39" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="25" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 1 1 4 4 4 5 3 3 6 4 4 5 5 5 7 3 3 6 4 4 8 6 6 9 5 5 10 6 6 9 7 7 11 5 5 10 8 8 12 9 9 13 6 6 14 6 6 14 9 9 13 7 7 15 0 0 0 2 2 2 8 8 16 8 8 16 2 2 2 9 9 17 2 2 2 3 3 3 10 10 18 3 3 6 5 5 7 10 10 19 5 5 10 7 7 11 10 10 20 7 7 15 9 9 13 10 10 19 9 9 17 2 2 2 10 10 18 11 11 21 12 12 22 0 0 23 12 12 22 1 1 24 0 0 23 12 12 25 13 13 26 1 1 27 13 13 26 4 4 28 1 1 27 14 14 29 6 6 30 13 13 31 13 13 31 6 6 30 4 4 32 15 15 33 8 8 34 14 14 35 14 14 35 8 8 34 6 6 36 11 11 21 0 0 23 15 15 37 15 15 37 0 0 23 8 8 38</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="br3_geom" name="br3">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="48" id="vert_arr-array">-0.032676 -0.126881 0.598503 0.10518 -0.123307 0.644433 -0.00618 -0.667178 0.855596 0.127792 -0.595351 0.887002 0.060449 -0.124263 0.814267 0.078738 -0.485819 0.943241 -0.105051 -0.128428 0.817641 -0.085553 -0.489953 0.946591 -0.162605 -0.130046 0.649893 -0.138035 -0.602039 0.892421 0.005639 -0.760399 1.35106 0.079957 -0.703445 1.349487 0.048795 -0.615102 1.350029 -0.044782 -0.617456 1.351937 -0.071454 -0.707255 1.352574 0.006275 -0.680595 1.383471</float_array>
+          <technique_common>
+            <accessor count="16" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="48" id="norm_arr-array">-0.01358319 -0.4301764 -0.9026427 0.7272348 -0.2739564 -0.6293469 -0.005385136 -0.6780398 -0.7350054 0.9518861 -0.2999635 -0.06272777 0.7278656 0.2753538 0.6280063 0.5830739 0.5229665 0.6217161 -0.5210605 0.2755164 0.8078284 -0.5756321 0.6319656 0.5189098 -0.7476767 -0.3225685 -0.5804558 -0.9389629 -0.3440176 0.0007249058 0.02913593 -0.9561888 0.2912969 0.8469645 -0.09026331 0.5239308 0.3344622 0.7015824 0.6292194 -0.4219268 0.5635436 0.7102087 -0.8198076 -0.1188877 0.5601618 0.02654692 0.001366804 0.9996465</float_array>
+          <technique_common>
+            <accessor count="16" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="78" id="tex_arr-array">0.461185 0.650266 0.433614 0.660644 0.461461 0.777417 0.433962 0.773128 0.434197 0.660601 0.407715 0.6784 0.437242 0.773052 0.406036 0.767287 0.373112 0.678499 0.406211 0.678644 0.373185 0.767311 0.406042 0.767454 0.431597 0.660668 0.434661 0.773118 0.406107 0.678441 0.404441 0.767328 0.487169 0.660609 0.487126 0.773093 0.461417 0.779386 0.433918 0.791948 0.460017 0.977572 0.444586 0.976942 0.423921 0.792097 0.401538 0.814593 0.445018 0.977091 0.427052 0.977308 0.368509 0.813449 0.401366 0.814789 0.375822 0.976164 0.394536 0.976927 0.422517 0.794265 0.444218 0.978326 0.400671 0.815933 0.426557 0.978071 0.487082 0.794116 0.474868 0.978177 0.459068 0.990536 0.439695 0.990685 0.384989 0.989541</float_array>
+          <technique_common>
+            <accessor count="39" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="25" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 1 1 4 4 4 5 3 3 6 4 4 5 5 5 7 3 3 6 4 4 8 6 6 9 5 5 10 6 6 9 7 7 11 5 5 10 8 8 12 9 9 13 6 6 14 6 6 14 9 9 13 7 7 15 0 0 0 2 2 2 8 8 16 8 8 16 2 2 2 9 9 17 2 2 18 3 3 19 10 10 20 3 3 19 11 11 21 10 10 20 3 3 22 5 5 23 11 11 24 5 5 23 12 12 25 11 11 24 5 5 26 7 7 27 12 12 28 7 7 27 13 13 29 12 12 28 9 9 30 14 14 31 7 7 32 7 7 32 14 14 31 13 13 33 2 2 18 10 10 20 9 9 34 9 9 34 10 10 20 14 14 35 10 10 20 11 11 21 15 15 36 11 11 24 12 12 25 15 15 37 12 12 28 13 13 29 15 15 38 13 13 33 14 14 31 15 15 37 14 14 35 10 10 20 15 15 36</p>
+        </triangles>
+      </mesh>
+    </geometry>
+    <geometry id="br4_geom" name="br4">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="48" id="vert_arr-array">0.616071 -0.006937 0.40551 0.539145 0.156782 0.450136 0.688696 -0.016623 1.164994 0.621571 0.076869 1.167401 0.413307 0.095312 0.522722 0.513179 0.042007 1.176144 0.412463 -0.106398 0.522954 0.513315 -0.073033 1.179146 0.537777 -0.169591 0.450514 0.621791 -0.109268 1.172254 0.603119 -0.011882 1.21146 -0.057005 -0.01164 0.041869 -0.064478 0.157042 0.116037 -0.061661 0.088017 0.317948 -0.057718 -0.14819 0.312311 -0.058912 -0.162093 0.108776</float_array>
+          <technique_common>
+            <accessor count="16" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="48" id="norm_arr-array">0.723761 -0.002049495 -0.6900478 0.3188581 0.9477926 -0.00432261 0.9486896 0.009102705 0.3160778 0.1425383 0.8463486 0.5132025 -0.5646656 0.6967857 0.4423149 -0.7114646 0.3780627 0.5923569 -0.6763891 -0.5101454 0.5312716 -0.5709767 -0.4323597 0.6978902 0.3436478 -0.9376481 -0.05217605 0.1326234 -0.838283 0.5288597 0.09413099 0.03406958 0.9949768 0.4752983 0.00496466 -0.8798107 0.3086165 0.7631152 -0.5678126 -0.3506443 0.5359623 0.7679798 -0.2448253 -0.7626991 0.598624 0.3338336 -0.7168922 -0.6120627</float_array>
+          <technique_common>
+            <accessor count="16" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="78" id="tex_arr-array">0.252536 0.672382 0.28528 0.690233 0.250599 0.976176 0.269298 0.977139 0.284961 0.69031 0.310128 0.719344 0.268476 0.977216 0.290154 0.980713 0.351547 0.718831 0.311205 0.718923 0.340886 0.9802 0.317878 0.9814 0.285234 0.690461 0.268432 0.979157 0.310297 0.719437 0.290127 0.981914 0.220005 0.690384 0.23207 0.97908 0.251547 0.994762 0.272166 0.994839 0.330108 0.994326 0.252204 0.497528 0.285941 0.514829 0.253145 0.671 0.285889 0.670075 0.289921 0.515322 0.323564 0.544818 0.285686 0.670515 0.324109 0.670248 0.371787 0.543939 0.363717 0.670204 0.324545 0.54493 0.323376 0.670364 0.28699 0.514281 0.285979 0.670405 0.321337 0.543952 0.324289 0.67018 0.222114 0.513892 0.220614 0.669955</float_array>
+          <technique_common>
+            <accessor count="39" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="25" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 1 1 1 3 3 3 2 2 2 1 1 4 4 4 5 3 3 6 4 4 5 5 5 7 3 3 6 4 4 8 6 6 9 5 5 10 6 6 9 7 7 11 5 5 10 8 8 12 9 9 13 6 6 14 6 6 14 9 9 13 7 7 15 0 0 0 2 2 2 8 8 16 8 8 16 2 2 2 9 9 17 2 2 2 3 3 3 10 10 18 3 3 6 5 5 7 10 10 19 5 5 10 7 7 11 10 10 20 7 7 15 9 9 13 10 10 19 9 9 17 2 2 2 10 10 18 11 11 21 12 12 22 0 0 23 12 12 22 1 1 24 0 0 23 12 12 25 13 13 26 1 1 27 13 13 26 4 4 28 1 1 27 14 14 29 6 6 30 13 13 31 13 13 31 6 6 30 4 4 32 15 15 33 8 8 34 14 14 35 14 14 35 8 8 34 6 6 36 11 11 21 0 0 23 15 15 37 15 15 37 0 0 23 8 8 38</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_images>
+    <image id="texture" name="texture">
+      <init_from>../../../Imported/Textures/ef2ca786e758fcc8.png</init_from>
+    </image>
+  </library_images>
+  <library_lights>
+    <light id="Sun" name="Sun">
+      <technique_common>
+        <directional>
+          <color>1 1 1</color>
+        </directional>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_materials>
+    <material id="material0" name="material">
+      <instance_effect url="#effect0" />
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="nafltr71">
+      <node id="sunshine" name="sunshine">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_light url="#Sun" />
+      </node>
+      <node id="nafltr71" name="nafltr71">
+        <translate>0 0 0</translate>
+        <rotate>0 0 0 0</rotate>
+        <node id="cactus1" name="cactus1">
+          <translate>0.0 0.0 0.0</translate>
+          <node id="br1" name="br1">
+            <translate>0.0 0.0 0.0</translate>
+            <instance_geometry url="#br1_geom">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="material0" target="#material0" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="br2" name="br2">
+            <translate>0.0 0.0 0.0</translate>
+            <instance_geometry url="#br2_geom">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="material0" target="#material0" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="br3" name="br3">
+            <translate>0.0 0.0 0.0</translate>
+            <instance_geometry url="#br3_geom">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="material0" target="#material0" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="br4" name="br4">
+            <translate>0.0 0.0 0.0</translate>
+            <instance_geometry url="#br4_geom">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="material0" target="#material0" />
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <instance_geometry url="#cactus1_geom">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="material0" target="#material0" />
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#nafltr71" />
+  </scene>
+</COLLADA>

@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "6fb6b49894705991aff99f9ee492b1f1",
+  "data": {
+    "name": "unorfe",
+    "source": "Assets/EvilIslands/Figures/unorfe/unorfe.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unorfe",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping",
+    "nodes": [
+      "hp",
+      "bd",
+      "hd",
+      "lh1",
+      "lh2",
+      "lh3",
+      "rh1",
+      "rh2",
+      "rh3",
+      "ll1",
+      "ll2",
+      "ll3",
+      "rl1",
+      "rl2",
+      "rl3"
+    ]
+  }
+}

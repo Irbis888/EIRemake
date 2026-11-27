@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "material": {
+    "name": "stbr13",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "Assets/EvilIslands/stbr13/stone06.png",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

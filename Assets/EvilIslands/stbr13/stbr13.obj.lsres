@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "4464c2ac5e215b0eb35c23eda8beac0d",
+  "data": {
+    "name": "stbr13",
+    "source": "Assets/EvilIslands/stbr13/stbr13.obj",
+    "bakeNodes": false
+  }
+}

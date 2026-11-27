@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EIrepack</authoring_tool>
+      <copyright>Only for educational purposes</copyright>
+    </contributor>
+    <created>2026-11-06T18:56:33.439442</created>
+    <modified>2026-11-06T18:56:33.439442</modified>
+    <title>stwali2</title>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="effect0" name="effect0">
+      <profile_COMMON>
+        <newparam sid="texture_surface">
+          <surface type="2D">
+            <init_from>texture</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="texture_sampler">
+          <sampler2D>
+            <source>texture_surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_sampler" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="fence01_geom" name="fence01">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="144" id="vert_arr-array">-0.5616357 -0.1268928 0.3758784 -0.5607356 -0.04303981 0.490163 0.5684071 -0.1919242 0.5540106 0.5675069 -0.2757773 0.4397259 0.2796287 0.5350193 0.008379303 0.2311179 -0.1368717 0.9524058 0.3743213 0.5325601 0.01170277 0.3258105 -0.139331 0.9557291 0.3258105 -0.1992044 0.9170735 0.2311179 -0.1967451 0.9137501 0.3743214 0.4569916 -0.02341719 0.2796287 0.4594508 -0.02674065 -0.4347331 0.559496 -0.003726727 -0.3668387 -0.04297418 0.9996919 -0.3401271 0.5626475 -0.008579617 -0.2722326 -0.03982268 0.994839 -0.2722325 -0.1005628 0.957809 -0.3668387 -0.1037142 0.9626618 -0.3401271 0.4860387 -0.04220007 -0.4347331 0.4828873 -0.03734721 -0.6462078 -0.3705512 0.07751845 -0.6515886 -0.3145757 0.1558378 0.652979 -0.3488675 0.2699726 0.6583599 -0.404843 0.1916532 -0.3204808 -0.4675436 0.008537748 -0.2149036 0.2132737 0.9707176 -0.4169233 -0.4582783 0.01256284 -0.3113462 0.222539 0.9747427 -0.3087228 0.2929415 0.9317302 -0.2122803 0.2836761 0.9277052 -0.415351 -0.3841131 -0.02812085 -0.3189085 -0.3933786 -0.03214599 0.3870385 -0.5337709 0.001063531 0.3706419 0.03694195 0.9504846 0.2973965 -0.5305651 -0.00290733 0.2809998 0.04014769 0.9465137 0.2834969 0.1083732 0.9072907 0.373139 0.1051673 0.9112616 0.298931 -0.4572095 -0.04081626 0.3885731 -0.4604152 -0.03684546 0.5843124 0.1233499 0.5551426 0.5684122 0.03783871 0.6670719 -0.5600838 0.177064 0.5758613 -0.5441836 0.2625753 0.463932 0.6408336 0.417162 0.1780759 0.6510724 0.3618685 0.2563952 -0.6515196 0.2823293 0.37053 -0.6617585 0.3376228 0.2922106</float_array>
+          <technique_common>
+            <accessor count="48" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="144" id="norm_arr-array">0 0 0 0 0 0 0 0 0 0 0 0 -0.8952984 0.3834605 0.226713 -0.4189946 0.4468372 0.7904303 0.4460033 0.7182115 0.5340909 0.6305958 -0.1022253 0.7693496 0.5584647 -0.8104078 0.1770772 -0.6085415 -0.7821084 0.1341035 0.7076189 -0.596024 -0.3795141 -0.7042745 -0.5646595 -0.430299 -0.89184 0.3585092 0.2758485 -0.3852451 0.4765776 0.7902277 0.4462394 0.7802449 0.4382788 0.7065467 -0.04272129 0.7063757 0.608887 -0.7748665 0.1698192 -0.5380435 -0.8112019 0.2290429 0.7058566 -0.5891302 -0.3933094 -0.7073413 -0.6296248 -0.3213114 0 0 0 0 0 0 0 0 0 0 0 0 0.8797471 -0.4285007 0.2059912 0.3920819 -0.4753688 0.7875888 -0.4847743 -0.6880201 0.5400208 -0.609812 0.1149697 0.7841628 -0.5106523 0.8368158 0.1974169 0.6629621 0.7386702 0.1218504 -0.6786763 0.6333296 -0.3718764 0.7259 0.5214774 -0.4484758 0.8799471 -0.4005226 0.2554896 0.3566029 -0.5043738 0.7864105 -0.4882598 -0.7516617 0.4434039 -0.6890067 0.05624516 0.7225692 -0.5639552 0.8034469 0.19086 0.5947976 0.7733104 0.219561 -0.6785246 0.6257776 -0.3847166 0.732304 0.5900036 -0.340039 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</float_array>
+          <technique_common>
+            <accessor count="48" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="8" id="tex_arr-array">0 0.5 0.5 0.5 0.5 1 0 1</float_array>
+          <technique_common>
+            <accessor count="4" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="120" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0 0 0 0 3 3 1 2 2 2 2 2 2 1 1 3 0 0 0 4 4 3 5 5 0 6 6 2 7 7 1 6 6 2 5 5 0 8 8 3 9 9 0 10 10 2 11 11 1 10 10 2 9 9 0 6 6 3 7 7 0 10 10 2 8 8 1 10 10 2 7 7 0 5 5 1 4 4 2 9 9 0 11 11 3 9 9 0 4 4 2 4 4 0 6 6 1 6 6 2 6 6 2 4 4 3 4 4 0 10 10 0 11 11 1 11 11 2 11 11 2 10 10 3 10 10 0 6 6 0 10 10 1 10 10 2 10 10 2 6 6 3 6 6 0 11 11 0 4 4 1 4 4 2 4 4 2 11 11 3 11 11 0 4 4 0 6 6 1 6 6 2 6 6 2 4 4 3 4 4 0 11 11 0 4 4 1 4 4 2 4 4 2 11 11 3 11 11 0 10 10 0 11 11 1 11 11 2 11 11 2 10 10 3 10 10 0 6 6 0 10 10 1 10 10 2 10 10 2 6 6 3 6 6 0 12 12 3 13 13 0 14 14 2 15 15 1 14 14 2 13 13 0 16 16 3 17 17 0 18 18 2 19 19 1 18 18 2 17 17 0 14 14 3 15 15 0 18 18 2 16 16 1 18 18 2 15 15 0 13 13 1 12 12 2 17 17 0 19 19 3 17 17 0 12 12 2 12 12 0 14 14 1 14 14 2 14 14 2 12 12 3 12 12 0 18 18 0 19 19 1 19 19 2 19 19 2 18 18 3 18 18 0 14 14 0 18 18 1 18 18 2 18 18 2 14 14 3 14 14 0 19 19 0 12 12 1 12 12 2 12 12 2 19 19 3 19 19 0 12 12 0 14 14 1 14 14 2 14 14 2 12 12 3 12 12 0 19 19 0 12 12 1 12 12 2 12 12 2 19 19 3 19 19 0 18 18 0 19 19 1 19 19 2 19 19 2 18 18 3 18 18 0 14 14 0 18 18 1 18 18 2 18 18 2 14 14 3 14 14 0 20 20 0 21 21 1 22 22 2 22 22 2 23 23 3 20 20 0 20 20 0 23 23 1 22 22 2 22 22 2 21 21 3 20 20 0 24 24 1 25 25 2 26 26 0 27 27 3 26 26 0 25 25 2 28 28 1 29 29 2 30 30 0 31 31 3 30 30 0 29 29 2 26 26 1 27 27 2 30 30 0 28 28 1 30 30 2 27 27 0 25 25 3 24 24 0 29 29 2 31 31 3 29 29 0 24 24 2 24 24 0 26 26 1 26 26 2 26 26 2 24 24 3 24 24 0 30 30 0 31 31 1 31 31 2 31 31 2 30 30 3 30 30 0 26 26 0 30 30 1 30 30 2 30 30 2 26 26 3 26 26 0 31 31 0 24 24 1 24 24 2 24 24 2 31 31 3 31 31 0 24 24 0 26 26 1 26 26 2 26 26 2 24 24 3 24 24 0 31 31 0 24 24 1 24 24 2 24 24 2 31 31 3 31 31 0 30 30 0 31 31 1 31 31 2 31 31 2 30 30 3 30 30 0 26 26 0 30 30 1 30 30 2 30 30 2 26 26 3 26 26 0 32 32 1 33 33 2 34 34 0 35 35 3 34 34 0 33 33 2 36 36 1 37 37 2 38 38 0 39 39 3 38 38 0 37 37 2 34 34 1 35 35 2 38 38 0 36 36 1 38 38 2 35 35 0 33 33 3 32 32 0 37 37 2 39 39 3 37 37 0 32 32 2 32 32 0 34 34 1 34 34 2 34 34 2 32 32 3 32 32 0 38 38 0 39 39 1 39 39 2 39 39 2 38 38 3 38 38 0 34 34 0 38 38 1 38 38 2 38 38 2 34 34 3 34 34 0 39 39 0 32 32 1 32 32 2 32 32 2 39 39 3 39 39 0 32 32 0 34 34 1 34 34 2 34 34 2 32 32 3 32 32 0 39 39 0 32 32 1 32 32 2 32 32 2 39 39 3 39 39 0 38 38 0 39 39 1 39 39 2 39 39 2 38 38 3 38 38 0 34 34 0 38 38 1 38 38 2 38 38 2 34 34 3 34 34 0 40 40 0 41 41 1 42 42 2 42 42 2 43 43 3 40 40 0 40 40 2 43 43 3 42 42 0 42 42 2 41 41 3 40 40 0 44 44 0 45 45 1 46 46 2 46 46 2 47 47 3 44 44 0 44 44 2 47 47 3 46 46 0 46 46 2 45 45 3 44 44 0 15 15 0 17 17 1 16 16 2 15 15 0 13 13 1 17 17 2 7 7 0 9 9 1 8 8 2 7 7 0 5 5 1 9 9 2 35 35 2 37 37 3 36 36 0 35 35 0 33 33 1 37 37 2 27 27 2 29 29 3 28 28 0 25 25 2 29 29 3 27 27 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_images>
+    <image id="texture" name="texture">
+      <init_from>../../../Imported/Textures/2f6968dd7e91c8f8.png</init_from>
+    </image>
+  </library_images>
+  <library_lights>
+    <light id="Sun" name="Sun">
+      <technique_common>
+        <directional>
+          <color>1 1 1</color>
+        </directional>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_materials>
+    <material id="material0" name="material">
+      <instance_effect url="#effect0" />
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="stwali2">
+      <node id="sunshine" name="sunshine">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_light url="#Sun" />
+      </node>
+      <node id="stwali2" name="stwali2">
+        <translate>0 0 0</translate>
+        <rotate>0 0 0 0</rotate>
+        <node id="fence01" name="fence01">
+          <translate>0.0 0.0 0.0</translate>
+          <instance_geometry url="#fence01_geom">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="material0" target="#material0" />
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#stwali2" />
+  </scene>
+</COLLADA>

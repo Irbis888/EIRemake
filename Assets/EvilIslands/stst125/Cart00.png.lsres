@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "e78435dd59e65810960533dd597412b5",
+  "data": {
+    "name": "Cart00",
+    "source": "Assets/EvilIslands/stst125/Cart00.png"
+  }
+}

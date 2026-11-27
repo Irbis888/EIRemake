@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "55383a7cfc375b3bbaea20c68dcd1334",
+  "data": {
+    "name": "stbuho14",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "uid:d3b54f36ef27513cadb92aae921b1353",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

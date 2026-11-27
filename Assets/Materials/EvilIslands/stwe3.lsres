@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "0741470b6b015ba39665516aa7280840",
+  "data": {
+    "name": "stwe3",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "uid:1cc8444d70e65d0797a460983b57646b",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

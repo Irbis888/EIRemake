@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "2d99c731c78652ef8f1a9b0c2276a7d1",
+  "data": {
+    "name": "Ogre00",
+    "source": "Assets/EvilIslands/Characters/Ogre/Ogre00.png"
+  }
+}

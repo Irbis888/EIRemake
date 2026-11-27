@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "079d44fd85b356c2b241ef79c547e4c7",
+  "data": {
+    "name": "altar00",
+    "source": "Assets/EvilIslands/stst34/altar00.png"
+  }
+}

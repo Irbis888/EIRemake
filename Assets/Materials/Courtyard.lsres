@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "f1f147fc823f5a639050461523ce807f",
+  "data": {
+    "name": "Courtyard earth",
+    "color": [
+      0.3,
+      0.34,
+      0.2
+    ],
+    "roughness": 0.95,
+    "albedo": "uid:9dcceb8a0d8e518cb095235f2da38c25"
+  }
+}

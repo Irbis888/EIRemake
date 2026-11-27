@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='utf-8'?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <authoring_tool>EIrepack</authoring_tool>
+      <copyright>Only for educational purposes</copyright>
+    </contributor>
+    <created>2026-11-06T18:56:27.900291</created>
+    <modified>2026-11-06T18:56:27.900291</modified>
+    <title>initweax5</title>
+    <unit name="meter" meter="1" />
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="effect0" name="effect0">
+      <profile_COMMON>
+        <newparam sid="texture_surface">
+          <surface type="2D">
+            <init_from>texture</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="texture_sampler">
+          <sampler2D>
+            <source>texture_surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <texture texture="texture_sampler" texcoord="UVSET0" />
+            </diffuse>
+            <specular>
+              <color>0.0 0.0 0.0 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="weapon_geom" name="weapon">
+      <mesh>
+        <source id="vert_arr">
+          <float_array count="144" id="vert_arr-array">-0.3930228 0.6388077 0.1003977 -0.3930228 0.6388078 -0.09839512 -0.5596909 0.5678276 0.0009781878 -0.630694 0.4011367 -0.09839511 -0.630694 0.4011365 0.1003978 -0.05397032 0.3034224 0.1019713 -0.05397029 0.3034225 -0.09992882 -0.2953567 0.06203677 -0.09992883 -0.2953567 0.06203668 0.1019713 -0.08666609 0.2001201 0.001047478 -0.1393413 0.1474449 -0.07344652 -0.1920165 0.09476967 0.001047455 -0.1393413 0.1474449 0.07554144 0.871803 -0.7625358 0.0009975721 0.8212366 -0.8131022 -0.07051419 -0.1393128 0.1474473 -0.0734465 -0.08663755 0.2001225 0.001047478 0.7706701 -0.8636687 0.0009975638 -0.191988 0.09477204 0.001047455 0.8212366 -0.8131022 0.07250932 -0.1393128 0.1474472 0.07554143 -0.6589979 0.667228 0.001000134 -0.5850838 0.5933141 0.1358489 -0.4890999 0.6892981 0.001000044 -0.4846735 0.4929037 0.001000111 -0.585084 0.5933141 -0.1338487 -0.6810679 0.4973301 0.001000195 0.8996774 -0.8915191 0.1358487 0.9704708 -0.9623126 0.0009999683 0.9956614 -0.7955351 0.0009998953 0.6967814 -0.6886231 0.0009999962 0.8996773 -0.8915191 -0.1338488 0.8036934 -0.9875031 0.001000047 -0.8312532 -0.1229122 0.001000183 -0.6737344 0.03460658 0.09555995 -0.864515 0.4299635 0.001000113 -0.3535702 0.3547706 0.001000111 -0.6737344 0.03460647 -0.09355962 -0.2783774 -0.1561741 0.001000164 0.1308763 0.8392164 0.001000014 -0.0266425 0.6816977 -0.09355974 -0.4219991 0.8724781 0.001000206 -0.3468066 0.3615336 0.001000086 -0.02664228 0.6816977 0.09555982 0.1641382 0.2863406 0.000999912 -0.3930228 0.6388077 0.1003977 -0.3930228 0.6388077 0.1003977 -0.3930228 0.6388077 0.1003977</float_array>
+          <technique_common>
+            <accessor count="48" source="#vert_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="norm_arr">
+          <float_array count="144" id="norm_arr-array">-0.08166094 0.6526227 0.7532697 0.1278502 0.8750078 -0.4669214 -0.7070942 0.7071194 -5.076094e-05 -0.6525753 0.08164769 -0.7533121 -0.8750654 -0.127723 0.4668483 0.8543735 0.07144679 0.5147243 0.6667902 -0.09813872 -0.7387553 -0.071278 -0.854454 -0.5146141 0.09802248 -0.6666489 0.7388984 0.89648 -0.4430843 1.91719e-05 0.6120968 -0.6120686 -0.5007091 0.4431888 -0.8964283 1.886002e-05 0.6119899 -0.6119615 0.5009705 0.6722836 0.6693545 -0.3162269 -0.222158 -0.225054 -0.9486815 0.2250546 0.2221584 -0.9486813 0.6722998 0.6693379 0.3162274 -0.6693381 -0.6722997 0.316227 -0.6693544 -0.6722832 -0.3162276 0.2251035 0.2221087 0.9486813 -0.2221089 -0.2251036 0.9486812 -0.7071068 0.7071068 3.531399e-07 -0.07363755 0.07363818 0.9945627 0.6290909 0.7773318 -2.683641e-07 0.7071068 -0.7071068 -3.467046e-07 -0.07363849 0.0736379 -0.9945626 -0.7773317 -0.629091 3.488734e-07 0.2129635 -0.2129628 0.9535688 0.7071068 -0.7071068 -2.372608e-07 0.8881134 0.4596244 -4.580368e-07 -0.7071068 0.7071068 2.355624e-07 0.2129627 -0.2129633 -0.9535688 -0.4596244 -0.8881134 3.133936e-07 -0.7071068 -0.7071068 2.42155e-07 -0.06403787 -0.06403779 0.9958907 -0.9009651 0.4338915 1.178059e-07 0.7071068 0.7071068 -2.211828e-07 -0.06403796 -0.06403809 -0.9958907 0.4338911 -0.9009653 5.890295e-08 0.7071067 0.7071069 -3.632325e-07 0.06403752 0.06403817 -0.9958907 -0.4338914 0.9009652 2.356117e-07 -0.7071071 -0.7071064 2.211828e-07 0.06403828 0.06403786 0.9958907 0.9009653 -0.4338911 -5.890295e-07 0.9009653 -0.4338911 -5.890295e-07 0.9009653 -0.4338911 -5.890295e-07 0.9009653 -0.4338911 -5.890295e-07</float_array>
+          <technique_common>
+            <accessor count="48" source="#norm_arr-array" stride="3">
+              <param type="float" name="X" />
+              <param type="float" name="Y" />
+              <param type="float" name="Z" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="tex_arr">
+          <float_array count="58" id="tex_arr-array">0.1362469 0.9799609 0.1048523 0.9925175 0.07345157 0.9799609 0.1367314 0.8914583 0.07295451 0.8914583 0.1187653 0.882193 0.1048479 0.882193 0.09093051 0.882193 0.05333736 0.725911 0.03997714 0.725911 0.03997717 0.9780061 0.05389455 0.978006 0.0266169 0.725911 0.02605979 0.9780061 0.1252995 0.8614264 0.1252995 0.8420278 0.1506595 0.8420278 0.1252995 0.8156751 0.09993941 0.8420278 0.1256072 0.7245404 0.1256072 0.7059607 0.1509672 0.7245404 0.1256072 0.7777902 0.1002471 0.7245404 0.003339578 0.6120989 0.05453 0.6120989 0.0877716 0.706705 0.1585769 0.6120988 0.08777156 0.5174927</float_array>
+          <technique_common>
+            <accessor count="29" source="#tex_arr-array" stride="2">
+              <param type="float" name="S" />
+              <param type="float" name="T" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="vert_arr-vertices">
+          <input semantic="POSITION" source="#vert_arr" />
+        </vertices>
+        <triangles count="60" material="material0">
+          <input offset="0" semantic="VERTEX" source="#vert_arr-vertices" />
+          <input offset="1" semantic="NORMAL" source="#norm_arr" />
+          <input offset="2" semantic="TEXCOORD" source="#tex_arr" />
+          <p>0 0 0 1 1 0 2 2 1 1 1 0 3 3 2 2 2 1 3 3 2 4 4 2 2 2 1 4 4 2 0 0 0 2 2 1 5 5 3 6 6 3 1 1 0 1 1 0 0 0 0 5 5 3 6 6 3 7 7 4 3 3 2 3 3 2 1 1 0 6 6 3 7 7 4 8 8 4 4 4 2 4 4 2 3 3 2 7 7 4 8 8 4 5 5 3 0 0 0 0 0 0 4 4 2 8 8 4 9 9 5 10 10 6 6 6 3 6 6 3 5 5 3 9 9 5 10 10 6 11 11 7 7 7 4 7 7 4 6 6 3 10 10 6 11 11 7 12 12 6 8 8 4 8 8 4 7 7 4 11 11 7 12 12 6 9 9 5 5 5 3 5 5 3 8 8 4 12 12 6 13 13 8 14 14 9 15 15 10 15 15 10 16 16 11 13 13 8 14 14 9 17 17 12 18 18 13 18 18 13 15 15 10 14 14 9 17 17 12 19 19 9 20 20 10 20 20 10 18 18 13 17 17 12 19 19 9 13 13 8 16 16 11 16 16 11 20 20 10 19 19 9 21 21 14 22 22 15 23 23 16 23 23 16 24 24 17 25 25 15 25 25 15 26 26 18 21 21 14 26 26 18 24 24 17 22 22 15 23 23 16 25 25 15 21 21 14 26 26 18 22 22 15 21 21 14 22 22 15 24 24 17 23 23 16 26 26 18 25 25 15 24 24 17 27 27 19 28 28 20 29 29 21 30 30 22 29 29 21 31 31 19 32 32 23 31 31 19 28 28 20 30 30 22 32 32 23 27 27 19 31 31 19 29 29 21 28 28 20 27 27 19 32 32 23 28 28 20 30 30 22 27 27 19 29 29 21 31 31 19 32 32 23 30 30 22 33 33 24 34 34 25 35 35 26 35 35 26 36 36 27 37 37 25 37 37 25 38 38 28 33 33 24 38 38 28 36 36 27 34 34 25 35 35 26 37 37 25 33 33 24 38 38 28 34 34 25 33 33 24 34 34 25 36 36 27 35 35 26 38 38 28 37 37 25 36 36 27 39 39 24 40 40 25 41 41 26 41 41 26 42 42 27 43 43 25 43 43 25 44 44 28 39 39 24 44 44 28 42 42 27 40 40 25 41 41 26 43 43 25 39 39 24 44 44 28 40 40 25 39 39 24 40 40 25 42 42 27 41 41 26 44 44 28 43 43 25 42 42 27</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_images>
+    <image id="texture" name="texture">
+      <init_from>../../../Imported/Textures/2f6968dd7e91c8f8.png</init_from>
+    </image>
+  </library_images>
+  <library_lights>
+    <light id="Sun" name="Sun">
+      <technique_common>
+        <directional>
+          <color>1 1 1</color>
+        </directional>
+      </technique_common>
+    </light>
+  </library_lights>
+  <library_materials>
+    <material id="material0" name="material">
+      <instance_effect url="#effect0" />
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="initweax5">
+      <node id="sunshine" name="sunshine">
+        <matrix>1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_light url="#Sun" />
+      </node>
+      <node id="initweax5" name="initweax5">
+        <translate>0 0 0</translate>
+        <rotate>0 0 0 0</rotate>
+        <node id="weapon" name="weapon">
+          <translate>0.0 0.0 0.0</translate>
+          <instance_geometry url="#weapon_geom">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="material0" target="#material0" />
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#initweax5" />
+  </scene>
+</COLLADA>

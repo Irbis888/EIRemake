@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "1cc8444d70e65d0797a460983b57646b",
+  "data": {
+    "name": "Well00",
+    "source": "Assets/EvilIslands/stwe3/Well00.png"
+  }
+}

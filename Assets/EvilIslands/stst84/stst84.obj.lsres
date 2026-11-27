@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "49d940e205f65c1686919050877c0e72",
+  "data": {
+    "name": "stst84",
+    "source": "Assets/EvilIslands/stst84/stst84.obj",
+    "bakeNodes": false
+  }
+}

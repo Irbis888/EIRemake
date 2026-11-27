@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "4f498cd9f898501db914fcdee1d5303d",
+  "data": {
+    "name": "infaunmosp",
+    "source": "Assets/EvilIslands/Figures/infaunmosp/infaunmosp.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "infaunmosp",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

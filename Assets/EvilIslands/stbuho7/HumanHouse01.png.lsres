@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "6be175d478bb57fab8bf80b64b6d9743",
+  "data": {
+    "name": "HumanHouse01",
+    "source": "Assets/EvilIslands/stbuho7/HumanHouse01.png"
+  }
+}

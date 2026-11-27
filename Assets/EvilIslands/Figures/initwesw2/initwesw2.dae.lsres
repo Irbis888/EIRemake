@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "bae3f52057da50a4b668f38b68ee8b9a",
+  "data": {
+    "name": "initwesw2",
+    "source": "Assets/EvilIslands/Figures/initwesw2/initwesw2.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "initwesw2",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

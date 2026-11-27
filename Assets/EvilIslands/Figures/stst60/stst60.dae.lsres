@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "fb1208e84d0e5a608c343522c61229a5",
+  "data": {
+    "name": "stst60",
+    "source": "Assets/EvilIslands/Figures/stst60/stst60.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "stst60",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "d943a54104a65de68e7e476065528667",
+  "data": {
+    "name": "initqu57",
+    "source": "Assets/EvilIslands/Figures/initqu57/initqu57.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "initqu57",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

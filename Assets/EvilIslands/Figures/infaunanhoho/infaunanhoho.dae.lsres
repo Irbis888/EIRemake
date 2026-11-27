@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "9cc675cc3d5c5530a4339741d0eb86b6",
+  "data": {
+    "name": "infaunanhoho",
+    "source": "Assets/EvilIslands/Figures/infaunanhoho/infaunanhoho.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "infaunanhoho",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

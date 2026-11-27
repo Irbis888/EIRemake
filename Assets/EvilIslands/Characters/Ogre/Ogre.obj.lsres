@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "173407062882537f8f50102022bc0126",
+  "data": {
+    "name": "Ogre",
+    "source": "Assets/EvilIslands/Characters/Ogre/Ogre.obj",
+    "bakeNodes": false
+  }
+}

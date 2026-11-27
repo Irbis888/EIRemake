@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "6ad4b81ffdcf5219abd5dff242665cfa",
+  "data": {
+    "name": "ingm2",
+    "source": "Assets/EvilIslands/Figures/ingm2/ingm2.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "ingm2",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

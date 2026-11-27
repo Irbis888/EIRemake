@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "280b51409a845064b9478609788d2667",
+  "data": {
+    "name": "unmodg",
+    "source": "Assets/EvilIslands/Figures/unmodg/unmodg.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unmodg",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

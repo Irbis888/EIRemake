@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "4d8a2972bb4b5bcc9f0c4715b6429874",
+  "data": {
+    "name": "unmoli",
+    "source": "Assets/EvilIslands/Figures/unmoli/unmoli.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unmoli",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

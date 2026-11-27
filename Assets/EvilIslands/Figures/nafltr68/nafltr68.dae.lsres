@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "1cb322703d9b562191ae5ae662d845f9",
+  "data": {
+    "name": "nafltr68",
+    "source": "Assets/EvilIslands/Figures/nafltr68/nafltr68.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "nafltr68",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "bfb8634600865f2b81459a06fc6c2334",
+  "data": {
+    "albedo": "uid:6be175d478bb57fab8bf80b64b6d9743",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "name": "stbuho7",
+    "roughness": 0.5,
+    "surface": {
+      "alpha": 1.0,
+      "alphaCutoff": 0.5,
+      "aoStrength": 1.0,
+      "editorVariant": true,
+      "emissiveColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissiveIntensity": 1.0,
+      "emissiveLightRange": 5.0,
+      "maskedVariant": true,
+      "mode": "opaque",
+      "normalStrength": 1.0,
+      "pixelEntry": "PS",
+      "renderState": {
+        "alphaOperation": "Add",
+        "blendEnabled": false,
+        "colorOperation": "Add",
+        "depthCompare": "Less",
+        "depthTest": true,
+        "depthWrite": true,
+        "destinationAlpha": "Zero",
+        "destinationColor": "Zero",
+        "sourceAlpha": "One",
+        "sourceColor": "One"
+      },
+      "shader": "Shaders/Default.hlsl",
+      "twoSided": false,
+      "uvOffset": [
+        0.0,
+        0.0
+      ],
+      "uvScale": [
+        1.0,
+        1.0
+      ],
+      "vertexEntry": "VS"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "24d8b82ff2615b2ca1be52a5274d5bf1",
+  "data": {
+    "name": "unanhodo",
+    "source": "Assets/EvilIslands/Figures/unanhodo/unanhodo.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unanhodo",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

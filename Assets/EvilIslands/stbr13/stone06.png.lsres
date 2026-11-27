@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "2e9a13d44db6568d8ef719e4431019fc",
+  "data": {
+    "name": "stone06",
+    "source": "Assets/EvilIslands/stbr13/stone06.png"
+  }
+}

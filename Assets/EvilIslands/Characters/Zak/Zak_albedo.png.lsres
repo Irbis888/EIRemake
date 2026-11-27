@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "9849076e900e51f9881716f0aaca540a",
+  "data": {
+    "name": "Zak_albedo",
+    "source": "Assets/EvilIslands/Characters/Zak/Zak_albedo.png"
+  }
+}

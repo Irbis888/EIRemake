@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "1e582114a2cf5fd18dff5c231a3fcdeb",
+  "data": {
+    "name": "Estera_albedo",
+    "source": "Assets/EvilIslands/Characters/Estera/Estera_albedo.png"
+  }
+}

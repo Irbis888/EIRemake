@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "ed5b996011245709a719dd66f3635aae",
+  "data": {
+    "name": "efar1",
+    "source": "Assets/EvilIslands/Figures/efar1/efar1.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "efar1",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

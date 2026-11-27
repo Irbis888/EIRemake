@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "78b55f8526005c98bd55dc20f06bfbd3",
+  "data": {
+    "name": "LizardMan00",
+    "source": "Assets/EvilIslands/Characters/Hermit/LizardMan00.png"
+  }
+}

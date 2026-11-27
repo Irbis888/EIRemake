@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "76503b9e61c45a609e6aa4bf8c5a459d",
+  "data": {
+    "albedo": "uid:1e582114a2cf5fd18dff5c231a3fcdeb",
+    "color": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "name": "Estera",
+    "roughness": 0.5,
+    "surface": {
+      "alpha": 1.0,
+      "alphaCutoff": 0.5,
+      "aoStrength": 1.0,
+      "editorVariant": true,
+      "emissiveColor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "emissiveIntensity": 1.0,
+      "emissiveLightRange": 5.0,
+      "maskedVariant": true,
+      "metallic": 0.8240000009536743,
+      "mode": "opaque",
+      "normalStrength": 1.0,
+      "pixelEntry": "PS",
+      "renderState": {
+        "alphaOperation": "Add",
+        "blendEnabled": false,
+        "colorOperation": "Add",
+        "depthCompare": "Less",
+        "depthTest": true,
+        "depthWrite": true,
+        "destinationAlpha": "Zero",
+        "destinationColor": "Zero",
+        "sourceAlpha": "One",
+        "sourceColor": "One"
+      },
+      "shader": "Shaders/Default.hlsl",
+      "twoSided": false,
+      "uvOffset": [
+        0.0,
+        0.0
+      ],
+      "uvScale": [
+        1.0,
+        1.0
+      ],
+      "vertexEntry": "VS"
+    }
+  }
+}

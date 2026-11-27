@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "material": {
+    "name": "stbuho11",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "Assets/EvilIslands/stbuho11/tent00.png",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

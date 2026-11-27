@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "material": {
+    "name": "Courtyard earth",
+    "color": [
+      0.3,
+      0.34,
+      0.2
+    ],
+    "roughness": 0.95,
+    "albedo": "Assets/Textures/White.png"
+  }
+}

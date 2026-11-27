@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "b83a5584ee0d51f6bec3131b5747f8c0",
+  "data": {
+    "name": "initlimt20",
+    "source": "Assets/EvilIslands/Figures/initlimt20/initlimt20.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "initlimt20",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

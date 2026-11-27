@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "f61bf8305aa4593298106f65da6a4c34",
+  "data": {
+    "name": "initarhl10",
+    "source": "Assets/EvilIslands/Figures/initarhl10/initarhl10.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "initarhl10",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

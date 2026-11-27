@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "material": {
+    "name": "stst92",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "Assets/EvilIslands/stst92/hadoganChest00.png",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

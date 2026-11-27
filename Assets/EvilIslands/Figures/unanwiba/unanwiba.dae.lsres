@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "7a021811393557c3948bb2a2709a6c16",
+  "data": {
+    "name": "unanwiba",
+    "source": "Assets/EvilIslands/Figures/unanwiba/unanwiba.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unanwiba",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

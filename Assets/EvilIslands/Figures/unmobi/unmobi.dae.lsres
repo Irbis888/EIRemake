@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "730178a4471a5d9e90a63ee46b872234",
+  "data": {
+    "name": "unmobi",
+    "source": "Assets/EvilIslands/Figures/unmobi/unmobi.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unmobi",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

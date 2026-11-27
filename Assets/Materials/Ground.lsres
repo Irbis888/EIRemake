@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "type": "Material",
+  "uid": "75c3de18a2e55200bfd5567dd2c7645d",
+  "data": {
+    "color": [
+      0.55,
+      0.57,
+      0.6
+    ],
+    "name": "GroundMaterial",
+    "roughness": 0.8,
+    "albedo": "uid:9dcceb8a0d8e518cb095235f2da38c25"
+  }
+}

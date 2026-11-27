@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "871b28c936b35c9f8d9946f1c3325351",
+  "data": {
+    "name": "ogreChest00",
+    "source": "Assets/EvilIslands/stst84/ogreChest00.png"
+  }
+}

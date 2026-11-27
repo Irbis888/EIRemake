@@ -1,0 +1,7 @@
+# LSEngine: Play sessions and other generated files
+Temp/
+/.vs/
+/.lsengine/cache/
+/.lsengine/migration-backups/
+/MyGame0.lsproject.before-ei
+/Scenes/EvilIslandsCourtyard.before-characters.json

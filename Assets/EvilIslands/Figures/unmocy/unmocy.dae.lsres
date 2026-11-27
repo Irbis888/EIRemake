@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "b001f4af61e55af4b43cd3ff279e8943",
+  "data": {
+    "name": "unmocy",
+    "source": "Assets/EvilIslands/Figures/unmocy/unmocy.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "unmocy",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

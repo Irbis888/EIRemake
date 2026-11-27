@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "e522ee98d2b1556ba2f698b2ea4ae8e4",
+  "data": {
+    "name": "Hermit",
+    "source": "Assets/EvilIslands/Characters/Hermit/Hermit.obj",
+    "bakeNodes": false
+  }
+}

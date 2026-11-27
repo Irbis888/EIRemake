@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "type": "Texture",
+  "uid": "4dd69f704f8f5c8b846afea364aa15e2",
+  "data": {
+    "name": "hadoganChest00",
+    "source": "Assets/EvilIslands/stst92/hadoganChest00.png"
+  }
+}

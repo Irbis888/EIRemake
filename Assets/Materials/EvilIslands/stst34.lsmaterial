@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "material": {
+    "name": "stst34",
+    "color": [
+      1,
+      1,
+      1
+    ],
+    "roughness": 0.5,
+    "albedo": "Assets/EvilIslands/stst34/altar00.png",
+    "surface": {
+      "shader": "Shaders/Default.hlsl",
+      "mode": "opaque",
+      "alpha": 1
+    }
+  }
+}

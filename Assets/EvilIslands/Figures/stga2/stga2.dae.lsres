@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "c9f1edca42025837afce0dad0f128e19",
+  "data": {
+    "name": "stga2",
+    "source": "Assets/EvilIslands/Figures/stga2/stga2.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "stga2",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

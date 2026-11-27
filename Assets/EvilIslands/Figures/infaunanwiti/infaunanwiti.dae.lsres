@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "1a2f9d67fae45d9c84074c8dd6a34cd0",
+  "data": {
+    "name": "infaunanwiti",
+    "source": "Assets/EvilIslands/Figures/infaunanwiti/infaunanwiti.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "infaunanwiti",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}

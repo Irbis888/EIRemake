@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "type": "StaticMesh",
+  "uid": "7737c15f48a856baae3dc099be838f61",
+  "data": {
+    "name": "co2",
+    "source": "Assets/EvilIslands/Figures/co2/co2.dae",
+    "bakeNodes": true,
+    "importer": "EIrepack",
+    "sourceFigure": "co2",
+    "sourceIndices": "DAE has no original FIG vertex-index mapping"
+  }
+}
